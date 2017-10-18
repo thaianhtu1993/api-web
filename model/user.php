@@ -32,7 +32,7 @@ class User
         // prepare query statement
         $stmt = $this->conn->prepare($query);
 
-        // bind id of product to be updated
+        // bind id of user to be updated
         $stmt->bindParam(':email', $email);
 
         // execute query

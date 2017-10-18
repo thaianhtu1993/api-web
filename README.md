@@ -2,7 +2,7 @@
 
 Copy thư mục api-web vào thư mục root của host
 Chỉnh sửa lại thông tin database ở trong file config/database.php 
-Import file api-web.sql ở trong thư mục database 
+Import file api_web.sql ở trong thư mục database 
 Các api : 
 - Thông tin người dùng: 
     + /api-web/user_info.php 
